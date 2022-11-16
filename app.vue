@@ -1,5 +1,12 @@
 <template>
   <div>
-    <button v-tippy="'Hi!'">test</button>
+    <button v-tippy="'Hi!'">Tooltip</button>
+
+    <br>
+    <br>
+    
+    <tippy content="Hi!">
+      <button>Tippy Component</button>
+    </tippy>
   </div>
 </template>
